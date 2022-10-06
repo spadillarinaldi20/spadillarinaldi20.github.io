@@ -1,0 +1,13 @@
+Cool Color Design of landing pages --> https://www.w3schools.com/css/css_list.asp
+
+
+if I use cool font use fall bakc font structure --> https://www.w3schools.com/css/tryit.asp?filename=trycss_font-family2
+
+
+- Hover over the candies and see a images of that candy 
+- Make Tables and list borders rounded 
+- Make lists and tables have \ / \ / ladder effect https://www.w3schools.com/css/tryit.asp?filename=trycss3_transform_rotate
+- box shadow https://www.w3schools.com/css/css3_shadows_box.asp
+- use web site layout? https://www.w3schools.com/css/css_website_layout.asp
+- https://www.w3schools.com/cssref/sel_hover.asp
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_hover2

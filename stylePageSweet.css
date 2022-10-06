@@ -1,0 +1,28 @@
+body {
+  background-color: lightblue;
+}
+
+table{
+  border: 5px dotted black;
+  margin:auto; 
+}
+
+td,tr,th{
+  border: 1px solid #d70f0f;
+  padding: 5px;
+  color: #e85989;
+  font-size: 20px;
+  text-align: center;
+  background: white;
+}
+
+header {
+  color: darkred;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom:10px;
+}
+
+p{
+  text-align: center;
+}
