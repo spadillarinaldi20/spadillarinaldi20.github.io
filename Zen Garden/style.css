@@ -9,14 +9,20 @@
 
 
 
-
-
-body {
-  border:5px solid black
-}
-
 head {
   border:5px solid red
+}
+
+body {
+  border:5px solid #00eeff
+}
+
+p {
+  border:5px solid #0011ff
+}
+
+a:link {
+  border:1px solid #ff00dd
 }
 
 h1{
@@ -24,11 +30,11 @@ h1{
 }
 
 h2{
-  border:5px solid #bbff00
+  border:5px solid #034443
 }
 
 h3{
-  border:5px solid #68750b
+  border:5px solid #44ff00
 }
 
 footer {
@@ -39,7 +45,38 @@ footer {
 
 
 
+header {
+  border:5px solid #fea4c8
+}
 
+abbr {
+  border:2px solid #4b0722
+}
+
+.page-wrapper { 
+  border:5px solid #a97eb9
+}
+
+.intro {
+  border:5px solid #7eb9ad
+}
+
+header h1 {
+  border:5px solid #606331
+}
+
+header h2 {
+  border:5px solid #606331
+}
+
+
+.summary {
+  border:5px solid #473163
+}
+
+.summary p {
+  border:5px solid #a048db
+}
 
 
 
