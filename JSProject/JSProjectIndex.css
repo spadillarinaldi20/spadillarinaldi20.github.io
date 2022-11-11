@@ -1,0 +1,170 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+footer, h1, p {
+  background-color:  #eadfec;
+  width: 500px;
+  font-style: italic;
+}
+
+
+body {
+  background-color: #d400ff;
+  /* The image used */
+  background-image: url("https://images.pling.com/img/00/00/62/00/07/1608032/6d4524e1668672d3784673b90991903dde71f5958af73e40f43774ec2970bab85f94.jpg");
+  /*https://www.dlr.de/content/en/images/dosiers/quantum-computing/visualisation-of-the-qubit-concept.jpg?__blob=normal&v=4__ifc1920w*/
+
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#path {
+  position: absolute;
+  top:-3%;
+  left:-100%;
+  outline: 2px solid #E8C48E;
+  width: 586px;
+  height: 30px;
+}
+
+#brick {
+  width: 45px;
+  height: 30px;
+  font-size: 70%;
+  line-height: 200%;
+  text-align: center;
+  vertical-align: center;
+  color:#f826aa;
+  background: #28015b;
+  position: relative;
+  cursor: pointer;
+}
+
+#myProgress {
+  position: absolute;
+  top:-3%;
+  left:-100%;
+  outline: 2px solid #E8C48E;
+  width: 586px;
+  height: 30px;
+  background-color: #6f219b;
+}
+
+#myBar {
+  width: 0%;
+  height: 100%;
+  background-color: #5786f7;
+  text-align: center;
+  line-height: 20px;
+  color: #310676;
+}
+
+
+#center0 {
+  position: center;
+  padding: 70px 0px;
+/*   border: 5px solid #d400ff; */
+  
+}
+
+#child1 {
+  position: absolute;
+/*   border: 5px solid blue; */
+  top: 0px;
+  width: 300px;
+  height: 300px;
+  right: 100%;
+}
+
+#child2 {
+  position: absolute;
+/*   border: 5px solid red; */
+  top: 25%;
+  width: 300px;
+  height: 300px;
+  left: 50%;
+}
+
+
+
+
+
+
+
+#mainText {
+  outline: 2px solid #E8C48E;
+  width: 280px;
+  height: 280px;
+  color: #f0cce6;
+  background-color: #498e97;
+}
+
+#tranText {
+  outline: 2px solid #E8C48E;
+  width: 280px;
+  height: 280px;
+  color: #dba4a4;
+  background-color: #5a68a0;
+}
+
+#myLabel0, #myLabel1 {
+  background-color: #6c4997;
+  color: #dba4a4;
+}
+
+textarea {
+  display: block;
+  border: 1px solid #BBB;
+  color: #444;
+  font-size: 110%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+  will-change: transform;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  
+  transition: transform 250ms, opacity 240ms;
+  transition-timing-function:ease-out;
+  transform: scale(1.00);
+  opacity: 0.6; 
+}
+
+button:hover {
+  transition: transform 50ms, opacity 50ms;
+  transition-timing-function:ease-in;
+  transform: scale(1.03);
+  opacity: 1;
+}
+button:active {
+  transform: scale(0.97);
+}
