@@ -1,0 +1,346 @@
+
+/*BASIC STUFF*/
+html, body {
+  background: #000000;
+  background-image: url('https://giffiles.alphacoders.com/209/209159.gif');
+  background-size: 110%;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+
+h1, h2, h3, p {
+  align-content: center;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 0 20px #ed9cdb;;
+} 
+
+
+
+#myInput {
+  border-radius: 5px;
+  width: 200px;
+  height: 20px;
+  box-shadow: 0 0 20px #ed9cdb;
+}
+
+
+
+
+
+
+/*For Layed card stuff*/
+.layered-card{
+    position: relative;
+    /* Demo */
+    height: 100%;
+    width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #ed9cdb;
+    
+}
+
+
+
+#charProfile {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.layered-card__content {
+    /* Position */
+    left: 0;
+    position: absolute;
+    top: 0;
+
+    /* Size */
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+
+    z-index: 0;
+
+    background: #fff;
+}
+
+
+
+
+/*Proporty list stuff*/
+#charPropList{
+  align-items: center;
+  background-color:#fff;
+  padding: 5px;
+  width: 500px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #ed9cdb;
+  
+}
+
+.property-list {
+    /* Content is center horizontally */
+    align-items: center;
+    display: flex;
+
+    border-bottom: 1px solid #b2b4b8;
+
+    /* Spacing */
+    margin: 0;
+    padding: 0.25rem 0;
+}
+.property-list-item {
+    /* Take the available width */
+    flex: 0;
+  font-size: 16px;
+  font-weight:bolder;
+  color: black;
+}
+.property-list-info {
+    margin-left: 2%;
+}
+
+
+
+/** 
+For video background 
+https://csslayout.io/video-background/
+*/
+
+.video-background { 
+/*     Used to position the video and content */
+background-size: cover;
+} 
+
+.video-background__inner {
+    /* Positioned at the top left corner */
+    left: 0px;
+    position: absolute;
+    top: 0px;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+
+    /* Hide the scrollbar */
+    overflow: hidden;
+}
+
+.video-background__video {
+    object-fit: cover;
+
+    /* Take full width */
+    height: 100%;
+    max-width: 100%;
+}
+
+.video-background__content {
+    /* Positioned at the top left corner */
+    left: 0px;
+    position: absolute;
+    top: 0px;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+#theVideoBoarder{
+  box-shadow: 0 0 20px #ed9cdb;
+  border: 10px outset black;
+}
+
+
+
+/*CSS Color Change*/
+#glow_selection {
+/*     animation: glow 1s infinite alternate; */
+  animation-name: glow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes glow {
+    0% { 
+      border: 2px outset black;
+      box-shadow: 0 0 20px #ed9cdb;
+    }
+    10% { 
+      border: 2px outset  #ff7300;
+      box-shadow: 0 0 20px #ed9cdb;
+    }
+    20% { 
+      border: 2px outset  #fffb00;
+      box-shadow: 0 0 20px #ed9cdb;
+    }
+    30% { 
+      border: 2px outset  #48ff00;
+      box-shadow: 0 0 20px #ed9cdb;
+    }
+    40% { 
+      border: 2px outset #00ffd5;
+      box-shadow: 0 0 20px #ed9cdb;
+    }
+    50% { 
+      border: 2px outset  #002bff;
+        box-shadow: 0 0 20px #ed9cdb;
+    }
+    60% { 
+      border: 2px outset  #7a00ff;
+        box-shadow: 0 0 20px #ed9cdb;
+    }
+    70% { 
+      border: 2px outset  #ff00c8;
+        box-shadow: 0 0 20px #ed9cdb;
+    }
+
+    80% { 
+      border: 2px solid  #ffffff;
+        box-shadow: 0 0 10px #ed9cdb;
+      }
+  
+    100% { 
+      border: 2px solid #ff0000;
+      box-shadow: 0 0 10px #ed9cdb;
+    }
+}
+
+
+
+#myMuteButton
+
+
+/*CSS ON CLICK CUSTOM & HOVER*/
+.button-49{
+  transition: transform 250ms, opacity 240ms;
+  transition-timing-function:ease-out;
+  transform: scale(1.00);
+  opacity: 0.6; 
+}
+
+.button-49:hover {
+  transition: transform 50ms, opacity 50ms;
+  transition-timing-function:ease-in;
+  transform: scale(1.03);
+  opacity: 1;
+}
+.button-49:active {
+  transform: scale(0.97);
+}
+
+
+
+/* CSS Button Glitch Effect*/
+.button-49,
+.button-49:after {
+  width: 150px;
+  height: 76px;
+  line-height: 78px;
+  font-size: 40px;
+  font-family: 'Bebas Neue', sans-serif;
+  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  box-shadow: 6px 0px 0px #00E6F6;
+  outline: transparent;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-49:after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+  
+  content: 'ALTERNATE TEXT';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #ff00f7 5%);
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+  clip-path: var(--slice-0);
+}
+
+
+.button-49:hover:after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+  }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+  }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .button-49,
+  .button-49:after {
+    width: 200px;
+    height: 86px;
+    line-height: 88px;
+  }
+}
